@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "StartPage - Oblivion72",
+    "version": "1.0.0",
+    "description": "Custom new tab startpage.",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }

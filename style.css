@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@font-face {
+    font-family: 'jackey';
+    src: url('fonts/jackeyfont.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'bitty';
+    src: url('fonts/Bitty.ttf') format("truetype");
+}
+
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    background-color: #090a20;
+}
+
+.image{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    backdrop-filter: brightness(.8);
+    position: relative;
+
+}
+
+.backgroundimg{
+    height: 280px;
+    width: 680px;
+    max-width: 680px;
+    max-height: 280px;
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* Adicionar Borda a imagem; */
+    border: 1px solid #258186;
+
+    background-image: url(imagens/rain.gif);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #258186;
+    font-size: 130px;
+    font-family: 'bitty';
+    padding: 5px;
+}
+
+#WelcomeText {
+
+    align-items: baseline;
+}
+
+body {
+    background-size: cover;
+    backdrop-filter: brightness(.8);
+    font-size: 100%;
+}
+
+.japanese{
+    color: #258186;
+    justify-content: center;
+    display: flex;
+    font-family: 'jackey';
+    font-size: 40px;
+}
+
+.pesquisar {
+    height: auto;
+    width: 600px;
+    font-family: 'Inter';
+    padding: 9px;
+    color:white;
+    margin-top: auto;
+    /* aumentar ou diminuir pixeis para barra de pesquisa ganhar bordas */
+    border: #258186 solid 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.barra{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+.seta {
+    text-align: left;
+    display: flex;
+}
+
+.setatwo {
+    text-align:left;
+  
+}
+
+hr {
+    margin: 5px;
+}
+
+#flexbox {
+    justify-content: center;
+    display: flex;
+    font-family: 'Inter';
+}
+
+#flexbox > div {
+
+    text-align: center;
+    color: #a4d2f1;
+
+    margin: 10px;
+    padding: 20px;
+
+    border: 1px solid #258186;
+
+    /* transform: scale(1.0);
+    transition-duration: 0.3s; */
+}
+
+/* #flexbox > div:hover {
+    transform: scale(1.1);
+} */
+
+a{
+    text-decoration: none;
+    color: #a4d2f1;
+
+    white-space: nowrap;
+}
+
+a:hover{
+    color: rgba(218, 198, 22, 0.932);
+}
